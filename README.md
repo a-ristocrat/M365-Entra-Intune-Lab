@@ -49,7 +49,7 @@ user's side, not just the admin side.
 - Joined the Windows 11 VM to Entra ID as an employee, so it enrolled in Intune automatically
 - Created a **compliance policy** (password, firewall, antivirus, Defender, real-time protection)
 - Deployed **Company Portal** as a required app, only to the Sales group
-- Pushed an **Edge configuration policy** (company new tab page) and confirmed it in `edge://policy`
+- Pushed an **Edge configuration policy** (company new tab page) and confirmed it in "edge://policy"
 - Sent a **remote restart** from Intune and watched the VM get the notice and reboot
 
 ![Compliant corporate device and remote restart](screenshots/14-device-compliant-restart.png)
@@ -65,7 +65,7 @@ Mason Wright "left the company." In this order:
 1. Blocked sign-in
 2. Signed him out of all sessions
 3. Reset his password
-4. Cleared his department, so he dropped out of `SG-Marketing` automatically
+4. Cleared his department, so he dropped out of "SG-Marketing" automatically
 5. Removed his license, which freed it up for someone else
 
 Access goes first, licenses last. If the license is removed first, the person still has access
@@ -104,7 +104,6 @@ and signed in with the work account. After that it showed as Corporate and Compl
 
 **Small things:**
 - New users couldn't sign in to Windows until they changed their temporary password on the web first
-- I almost removed the license from the wrong user during offboarding and had to put it back
 - BitLocker and Secure Boot checks are left out of the compliance policy, because they often
   fail in a VM even when the settings are correct
 
